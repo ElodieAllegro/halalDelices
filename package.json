@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ton-pseudo.github.io/nom-du-repo",
+  "homepage": "https://github.com/ElodieAllegro/halalDelices",
 
   "name": "vite-react-starter",
   "private": true,
@@ -9,7 +9,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
