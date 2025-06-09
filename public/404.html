@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <script>
-      // Récupère l'URL de la page visitée
-      const path = window.location.pathname
-      const redirectTo = "/halalDelices" + path;
-      window.location.replace(redirectTo);
+      const path = location.pathname.replace('/halalDelices', '');
+      const newUrl = '/halalDelices/index.html?redirect=' + encodeURIComponent(path);
+      window.location.replace(newUrl);
     </script>
   </head>
   <body>
-    <p>Redirection en cours...</p>
+    <p>Redirection...</p>
   </body>
 </html>
+
 
 
