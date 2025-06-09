@@ -33,7 +33,7 @@ function App() {
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/blog" element={<BlogPage />} />
               <Route path="/cart" element={<CartPage />} />
-              <Route path="*" element={<NotFoundPage />} />
+
             </Routes>
           </main>
           <Footer />
