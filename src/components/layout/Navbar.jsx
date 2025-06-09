@@ -29,9 +29,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${
-      isScrolled ? 'navbar-scrolled' : 'navbar-transparent'
-    }`}>
+    <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'navbar-scrolled' : 'navbar-transparent'
+      }`}>
       <div className="container">
         <div className="flex justify-between items-center">
           {/* Logo */}
@@ -48,10 +47,9 @@ const Navbar = () => {
                 key={item.name}
                 to={item.path}
                 className={({ isActive }) =>
-                  `text-sm font-medium transition-colors duration-200 hover:text-burgundy-600 ${
-                    isActive 
-                      ? 'text-burgundy-600 font-bold' 
-                      : isScrolled ? 'text-gray-700' : 'text-gray-700'
+                  `text-sm font-medium transition-colors duration-200 hover:text-burgundy-600 ${isActive
+                    ? 'text-burgundy-600 font-bold'
+                    : isScrolled ? 'text-gray-700' : 'text-gray-700'
                   }`
                 }
               >
@@ -82,15 +80,22 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
-        <nav className="flex flex-col space-y-4 p-6">
+      <div className={`mobile-menu ${isMenuOpen ? 'open' : ''} bg-white fixed top-0 left-0 w-full min-h-screen z-50`}>
+        <button
+          onClick={() => setIsMenuOpen(false)}
+          className="absolute top-4 right-4 text-3xl text-gray-700 hover:text-burgundy-600"
+          aria-label="Fermer le menu"
+        >
+          &times;
+        </button>
+
+        <nav className="flex flex-col space-y-4 p-6 mt-12">
           {navigation.map((item) => (
             <NavLink
               key={item.name}
               to={item.path}
               className={({ isActive }) =>
-                `text-lg font-medium transition-colors duration-200 hover:text-burgundy-600 ${
-                  isActive ? 'text-burgundy-600 font-bold' : 'text-gray-700'
+                `text-lg font-medium transition-colors duration-200 hover:text-burgundy-600 ${isActive ? 'text-burgundy-600 font-bold' : 'text-gray-700'
                 }`
               }
               onClick={() => setIsMenuOpen(false)}
@@ -100,6 +105,7 @@ const Navbar = () => {
           ))}
         </nav>
       </div>
+
     </header>
   );
 };
