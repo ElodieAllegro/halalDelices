@@ -4,7 +4,7 @@ import { Menu, X, ShoppingCart } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
 
 const navigation = [
-  { name: 'Accueil', path: '/' },
+  { name: 'Accueil', path: '/home' },
   { name: 'Produits', path: '/products' },
   { name: 'À Propos', path: '/about' },
   { name: 'Nos Engagements', path: '/commitments' },
@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <NavLink to="/" className="text-2xl font-serif font-bold text-burgundy-700">
+            <NavLink to="/home" className="text-2xl font-serif font-bold text-burgundy-700">
               HalalDélices
             </NavLink>
           </div>

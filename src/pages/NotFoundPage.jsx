@@ -12,7 +12,7 @@ const NotFoundPage = () => {
         <p className="text-gray-600 mb-8">
           La page que vous recherchez semble introuvable. Peut-être a-t-elle été déplacée ou supprimée.
         </p>
-        <Link to="/">
+        <Link to="/home">
           <Button 
             variant="primary" 
             size="lg"
