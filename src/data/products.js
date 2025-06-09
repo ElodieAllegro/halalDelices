@@ -5,7 +5,7 @@ export const products = [
     shortDescription: 'Saucisson de bœuf premium aux épices traditionnelles',
     description: 'Notre saucisson de bœuf épicé est fabriqué selon des méthodes artisanales, avec une sélection rigoureuse de viande de bœuf 100% halal. Parfaitement assaisonné avec un mélange d\'épices traditionnelles, ce saucisson offre une expérience gustative authentique et savoureuse.',
     price: 12.99,
-    image: '/imgSlide/pexels-nadin-sh-78971847-14760397.jpg',
+    image: '/halalDelices/imgSlide/pexels-nadin-sh-78971847-14760397.jpg',
     category: 'Saucissons',
     featured: true,
     ingredients: ['Viande de bœuf halal', 'Sel', 'Poivre', 'Ail', 'Épices naturelles'],
