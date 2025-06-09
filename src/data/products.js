@@ -24,7 +24,7 @@ export const products = [
     shortDescription: 'Jambon de dinde fumé au bois de hêtre',
     description: 'Notre jambon de dinde fumé est préparé à partir de dinde fermière élevée en plein air. Fumé délicatement au bois de hêtre selon des techniques traditionnelles, ce jambon offre une saveur douce et équilibrée qui ravira les amateurs de charcuterie fine.',
     price: 9.99,
-    image: 'imgSlide/pexels-nadin-sh-78971847-14760397.jpg',
+    image: '/imgSlide/pexels-nadin-sh-78971847-14760397.jpg',
     category: 'Jambons',
     featured: true,
     ingredients: ['Filet de dinde halal', 'Sel', 'Sucre de canne', 'Épices naturelles'],
