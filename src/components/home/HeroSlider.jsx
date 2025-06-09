@@ -6,7 +6,7 @@ import Button from '../ui/Button';
 const heroSlides = [
   {
     id: 1,
-    image: 'dist/imgSlide/pexels-angel-ayala-321556-28976231.jpg',
+    image: '/halalDelices/imgSlide/pexels-angel-ayala-321556-28976231.jpg',
     title: 'Charcuterie Halal Artisanale',
     subtitle: 'Des produits d\'exception élaborés dans le respect des traditions',
     buttonText: 'Découvrir nos produits',
@@ -14,7 +14,7 @@ const heroSlides = [
   },
   {
     id: 2,
-    image: '/imgSlide/pexels-eva-bronzini-5975429.jpg',
+    image: '/halalDelices/imgSlide/pexels-eva-bronzini-5975429.jpg',
     title: 'Coffrets Cadeaux Gourmands',
     subtitle: 'Offrez une expérience gustative inoubliable',
     buttonText: 'Voir les coffrets',
@@ -22,7 +22,7 @@ const heroSlides = [
   },
   {
     id: 3,
-    image: '/imgSlide/pexels-postiglioni-1930760.jpg',
+    image: '/halalDelices/imgSlide/pexels-postiglioni-1930760.jpg',
     title: '100% Certifié Halal',
     subtitle: 'Une traçabilité rigoureuse et une certification garantie',
     buttonText: 'Nos engagements',

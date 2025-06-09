@@ -9,7 +9,7 @@ const BlogPage = () => {
       excerpt: "Qu’est-ce qu’une viande halal ? Quelles sont les étapes de certification et pourquoi sont-elles si importantes ? On vous explique tout.",
       author: "Charcuterie Al Yaqine",
       date: "2024-05-10",
-      image: "/imgHome/halal.jpeg"
+      image: "/halalDelices/imgHome/halal.jpeg"
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ const BlogPage = () => {
       excerpt: "Découvrez comment nous choisissons nos bêtes avec soin, en respectant les normes halal et les critères de qualité supérieure.",
       author: "Charcuterie Al Yaqine",
       date: "2024-05-15",
-      image: "/imgHome/premium.png"
+      image: "/halalDelices/imgHome/premium.png"
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ const BlogPage = () => {
       excerpt: "Une nouvelle aventure démarre ! Plongez dans les coulisses de l’ouverture de notre boutique dédiée à la charcuterie 100% halal.",
       author: "Charcuterie Al Yaqine",
       date: "2024-06-01",
-      image: "/imgHome/ouverure.jpeg"
+      image: "/halalDelices/imgHome/ouverure.jpeg"
     }
   ];
 

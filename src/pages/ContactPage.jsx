@@ -63,7 +63,7 @@ const ContactPage = () => {
                 <div>
                   <p className="font-medium">Email</p>
                   <a href="mailto:contact@example.com" className="text-blue-600 hover:text-blue-800">
-                    contact@example.com
+                    contact@halaldelices.com
                   </a>
                 </div>
               </div>
@@ -72,7 +72,7 @@ const ContactPage = () => {
                 <div>
                   <p className="font-medium">Phone</p>
                   <a href="tel:+1234567890" className="text-blue-600 hover:text-blue-800">
-                    +1 (234) 567-890
+                    +33(234) 567-890
                   </a>
                 </div>
               </div>
@@ -93,16 +93,16 @@ const ContactPage = () => {
             <h2 className="text-2xl font-semibold mb-6">Business Hours</h2>
             <div className="space-y-2">
               <p className="flex justify-between">
-                <span className="font-medium">Monday - Friday</span>
-                <span>9:00 AM - 6:00 PM</span>
+                <span className="font-medium">Lundi - Samedi</span>
+                <span>9:00  - 19:00 </span>
               </p>
               <p className="flex justify-between">
-                <span className="font-medium">Saturday</span>
-                <span>10:00 AM - 4:00 PM</span>
+                <span className="font-medium">Vendredi</span>
+                <span>8:00 AM - 12:00 </span>
               </p>
               <p className="flex justify-between">
-                <span className="font-medium">Sunday</span>
-                <span>Closed</span>
+                <span className="font-medium">Vendredi aprés-midi</span>
+                <span>Fermé</span>
               </p>
             </div>
           </div>
