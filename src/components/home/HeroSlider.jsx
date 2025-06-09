@@ -6,7 +6,7 @@ import Button from '../ui/Button';
 const heroSlides = [
   {
     id: 1,
-    image: '/imgSlide/pexels-angel-ayala-321556-28976231.jpg',
+    image: 'dist/imgSlide/pexels-angel-ayala-321556-28976231.jpg',
     title: 'Charcuterie Halal Artisanale',
     subtitle: 'Des produits d\'exception élaborés dans le respect des traditions',
     buttonText: 'Découvrir nos produits',
