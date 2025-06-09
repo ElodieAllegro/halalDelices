@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL=./" />
+    <meta charset="utf-8">
+    <script>
+      // Récupère l'URL de la page visitée
+      const path = window.location.pathname
+      const redirectTo = "/halalDelices" + path;
+      window.location.replace(redirectTo);
+    </script>
   </head>
-  <body></body>
+  <body>
+    <p>Redirection en cours...</p>
+  </body>
 </html>
+
+
