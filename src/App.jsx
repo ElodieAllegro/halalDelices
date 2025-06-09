@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
@@ -18,7 +17,7 @@ import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/halalDelices">
       <CartProvider>
         <div className="flex flex-col min-h-screen">
           <ScrollToTop />
@@ -33,13 +32,13 @@ function App() {
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/blog" element={<BlogPage />} />
               <Route path="/cart" element={<CartPage />} />
-
+              <Route path="*" element={<NotFoundPage />} /> {/* fallback 404 */}
             </Routes>
           </main>
           <Footer />
         </div>
       </CartProvider>
-    </Router>
+    </BrowserRouter>
   );
 }
 
